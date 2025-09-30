@@ -33,10 +33,9 @@ Example: ![App Demo](./demo.gif)
 
 ## 🛠️ Tech Stack
 
-* **Backend:** FastAPI, Uvicorn, PyTorch, Torchvision, Pillow
+* **Backend:** FastAPI, HuggingFace, PyTorch, Torchvision, Pillow
 * **Frontend:** Streamlit, Requests
 * **ML Tools:** Weights & Biases (W&B), Hugging Face Spaces, Docker
-* **Core Libraries:** NumPy, argparse
 
 ---
 
