@@ -55,11 +55,6 @@ demo link [In Progress]
 
 The frontend and backend are separate applications. The Streamlit app (frontend) communicates with the FastAPI server (backend) using API requests. This setup makes the project easier to manage and update.
 
-<!-- 
-ACTION REQUIRED: Create a simple diagram (e.g., with diagrams.net or Excalidraw), save it in your repo, and link it here.
-Example: ![Architecture Diagram](./architecture.png)
--->
-
 ---
 
 ## 🧠 Model Training Steps
