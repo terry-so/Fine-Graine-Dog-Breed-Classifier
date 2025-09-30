@@ -11,7 +11,7 @@ This project classifies images of Shiba Inu and Akita dogs. It covers the full p
 
 ## 🚀 Live Demos
 
-[place holder]
+[place holder][TBD]
 
 ---
 <!-- 
