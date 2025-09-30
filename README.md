@@ -11,8 +11,7 @@ This project classifies images of Shiba Inu and Akita dogs. It covers the full p
 
 ## 🚀 Live Demos
 
-* **Streamlit Frontend:** `<!-- Add the link to your deployed Streamlit app here -->`
-* **FastAPI Backend API:** `<!-- Add the link to your Hugging Face Space here -->`
+[place holder]
 
 ---
 <!-- 
