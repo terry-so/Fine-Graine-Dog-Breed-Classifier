@@ -7,20 +7,32 @@
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow.svg)
 ![Docker](https://img.shields.io/badge/Docker-24.0-blue.svg)
 
-This project classifies images of Shiba Inu and Akita dogs. It covers the full process: training a model, finding the best hyperparameters, and deploying it as a live web application that anyone can use.
+The **Shiba Inu** and **Akita** are two popular dog breeds that are often confused due to their similar appearances, as highlighted in various discussions online:
+![reddit](/asset/reddit.png)
+To address this common mix-up, this project provides an end-to-end solution for image classification. It covers the entire machine learning pipeline: training a model, tuning hyperparameters, and deploying the final model as an interactive web application.
+<table align="center">
+  <tr>
+    <td align="center">
+      <p><b>Shiba Inu</b></p>
+      <img src="/asset/shiba.jpg" alt="Shiba Inu" width="300">
+    </td>
+    <td align="center">
+      <p><b>Akita</b></p>
+      <img src="/asset/akita.webp" alt="Akita" width="300">
+    </td>
+  </tr>
+</table>
 
-## 🚀 Live Demos
+## 🚀 Demo
 
-[place holder][TBD]
+demo link [tbd]
+
+
 
 ---
-<!-- 
-ACTION REQUIRED: Add a GIF or a high-quality screenshot of your Streamlit app in action right below this comment. 
-Example: ![App Demo](./demo.gif)
--->
+![demo](/asset/demo.gif)
 
 ---
-
 ## ✨ Project Features
 
 * **Model:** Uses a Vision Transformer (ViT) fine-tuned for this task, achieving about 94% accuracy.
