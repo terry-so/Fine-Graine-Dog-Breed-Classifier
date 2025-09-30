@@ -7,7 +7,7 @@
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow.svg)
 ![Docker](https://img.shields.io/badge/Docker-24.0-blue.svg)
 
-The **Shiba Inu** and **Akita** are two popular dog breeds that are often confused due to their similar appearances, as highlighted in various discussions online:
+The **Shiba Inu** and **Akita Inu** are two popular dog breeds that are often confused due to their similar appearances, as highlighted in various discussions online:
 ![reddit](/asset/reddit.png)
 To address this common mix-up, this project provides an end-to-end solution for image classification. It covers the entire machine learning pipeline: training a model, tuning hyperparameters, and deploying the final model as an interactive web application.
 <table align="center">
