@@ -25,7 +25,7 @@ To address this common mix-up, this project provides an end-to-end solution for 
 
 ## 🚀 Demo
 
-demo link [tbd]
+demo link [In Progress]
 
 
 
@@ -38,8 +38,8 @@ demo link [tbd]
 * **Model:** Uses a Vision Transformer (ViT) fine-tuned for this task, achieving about 94% accuracy.
 * **Web App Architecture:** The project is a web app with two parts: a FastAPI backend for the model and a Streamlit frontend for the user interface.
 * **Hyperparameter Tuning:** Used Weights & Biases (W&B) to automatically test different learning rates and find the best one.
-* **Deployment:** The backend is packaged with Docker and hosted on Hugging Face Spaces. The frontend is hosted on Streamlit Community Cloud. [TBD]
-* **User Interface:** The Streamlit app lets you upload an image to get a prediction and a confidence score. [TBD]
+* **Deployment:** The backend is packaged with Docker and hosted on Hugging Face Spaces. The frontend is hosted on Streamlit Community Cloud.
+* **User Interface:** The Streamlit app lets you upload an image to get a prediction and a confidence score.
 
 ---
 
@@ -55,20 +55,14 @@ demo link [tbd]
 
 The frontend and backend are separate applications. The Streamlit app (frontend) communicates with the FastAPI server (backend) using API requests. This setup makes the project easier to manage and update.
 
-<!-- 
-ACTION REQUIRED: Create a simple diagram (e.g., with diagrams.net or Excalidraw), save it in your repo, and link it here.
-Example: ![Architecture Diagram](./architecture.png)
--->
-
 ---
 
 ## 🧠 Model Training Steps
 
-1.  **Preparing the Data:** Half of the data were prepared by scraping from google and instagram. All images were resized to 224x224 pixels and normalized to prepare them for the model.
-2.  **Training the Model:** I used a pre-trained Vision Transformer (ViT) and fine-tuned it on the custom dog dataset. This means I only had to train the final layer, which is much faster.
-3.  **Finding the Best Learning Rate:** I used Weights & Biases to automatically test several learning rates and find the one that gave the lowest validation loss.
-4.  **Final Training:** The model was trained using the best learning rate and an "early stopping" mechanism to prevent it from overfitting.
-5.  **Saving the Model:** The final trained model was saved to a `.pth` file for use in the application.
+1.  **Preparing the Data:** The dataset was compiled by collecting images from Google and Instagram. All images were preprocessed by resizing them to 224x224 pixels and normalizing their pixel values.
+2.  **Training the Model:** A pre-trained Vision Transformer (ViT) was fine-tuned on the custom dog dataset. To accelerate training, all layers of the base model were frozen, and only the final classifier head was trained.
+3.  **Finding the Best Learning Rate:** A hyperparameter sweep was conducted using Weights & Biases to find the optimal learning rate. The rate that achieved the lowest validation loss was selected.
+5.  **Saving the Model:** The final trained model weights were saved to a .pth file for deployment in the web application.
 
 ---
 
