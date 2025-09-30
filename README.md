@@ -23,7 +23,7 @@ Example: ![App Demo](./demo.gif)
 
 ## ✨ Project Features
 
-* **Model:** Uses a Vision Transformer (ViT) fine-tuned for this task, achieving about 92% accuracy.
+* **Model:** Uses a Vision Transformer (ViT) fine-tuned for this task, achieving about 94% accuracy.
 * **Web App Architecture:** The project is a web app with two parts: a FastAPI backend for the model and a Streamlit frontend for the user interface.
 * **Hyperparameter Tuning:** Used Weights & Biases (W&B) to automatically test different learning rates and find the best one.
 * **Deployment:** The backend is packaged with Docker and hosted on Hugging Face Spaces. The frontend is hosted on Streamlit Community Cloud.
