@@ -53,18 +53,11 @@ Example: ![Architecture Diagram](./architecture.png)
 
 ## 🧠 Model Training Steps
 
-1.  **Preparing the Data:** All images were resized to 224x224 pixels and normalized to prepare them for the model.
-2.  **Training the Model:** I used a pre-trained Vision Transformer (ViT) and fine-tuned it on the dog dataset. This means I only had to train the final layer, which is much faster.
+1.  **Preparing the Data:** Half of the data were prepared by scraping from google and instagram. All images were resized to 224x224 pixels and normalized to prepare them for the model.
+2.  **Training the Model:** I used a pre-trained Vision Transformer (ViT) and fine-tuned it on the custom dog dataset. This means I only had to train the final layer, which is much faster.
 3.  **Finding the Best Learning Rate:** I used Weights & Biases to automatically test several learning rates and find the one that gave the lowest validation loss.
 4.  **Final Training:** The model was trained using the best learning rate and an "early stopping" mechanism to prevent it from overfitting.
 5.  **Saving the Model:** The final trained model was saved to a `.pth` file for use in the application.
 
 ---
 
-## ⚙️ How to Run Locally
-
-### 1. Clone the Repository
-```bash
-# Replace with your repository URL
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
