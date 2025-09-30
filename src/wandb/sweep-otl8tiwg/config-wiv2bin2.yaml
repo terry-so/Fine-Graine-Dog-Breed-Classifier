@@ -1,0 +1,8 @@
+wandb_version: 1
+
+epochs:
+  value: 100
+learning_rate:
+  value: 5.991039490425858e-05
+patience:
+  value: 5

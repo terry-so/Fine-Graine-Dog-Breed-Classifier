@@ -7,15 +7,17 @@ import os
 from torch.utils.data import DataLoader
 
 train_transforms = v2.Compose([
+   v2.Lambda(lambda image: image.convert("RGB")),
+   v2.ToImage(), 
    v2.RandomHorizontalFlip(),
    v2.RandomRotation(45),
-   v2.ToImage(), 
    v2.ToDtype(torch.float32, scale=True),
    v2.Resize((224,224)),
    v2.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))
 ])
 
 val_transforms = v2.Compose([
+   v2.Lambda(lambda image: image.convert("RGB")),
    v2.ToImage(), 
    v2.ToDtype(torch.float32, scale=True),
    v2.Resize((224,224)),
@@ -23,6 +25,7 @@ val_transforms = v2.Compose([
 ])
 
 test_transforms = v2.Compose([
+   v2.Lambda(lambda image: image.convert("RGB")),
    v2.ToImage(), 
    v2.ToDtype(torch.float32, scale=True),
    v2.Resize((224,224)),

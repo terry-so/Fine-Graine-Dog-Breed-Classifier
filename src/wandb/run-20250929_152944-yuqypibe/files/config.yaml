@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        code_path: code/src/train.py
+        e:
+            1ci14dpjpzarlfn0xb3cit8t5gmuyz3c:
+                codePath: src\train.py
+                codePathLocal: train.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "998678794240"
+                        used: "907419160576"
+                email: hso37@gatech.edu
+                executable: C:\Users\hozen\anaconda3\envs\shiba_akita\python.exe
+                git:
+                    commit: 1949990f810c5d16bf67f3043a90058020637b6e
+                    remote: https://github.com/terry-so/Fine-Graine-Dog-Breed-Classifier
+                gpu: NVIDIA GeForce RTX 3060 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 4864
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 3060 Ti
+                      uuid: GPU-e9715eb1-11d3-4bc7-40cc-f2e8a70d2fbd
+                host: DESKTOP-KAVTJ08
+                memory:
+                    total: "17102364672"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\hozen\Desktop\Projects\Fine-Grained-Dog-Breed-Classifier\src\train.py
+                python: CPython 3.11.13
+                root: C:\Users\hozen\Desktop\Projects\Fine-Grained-Dog-Breed-Classifier\src
+                startedAt: "2025-09-29T14:29:44.324090Z"
+                writerId: 1ci14dpjpzarlfn0xb3cit8t5gmuyz3c
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+            "3":
+                - 2
+                - 16
+            "4": 3.11.13
+            "5": 0.22.0
+            "6": 4.56.2
+            "8":
+                - 3
+            "12": 0.22.0
+            "13": windows-amd64
+learning_rate:
+    value: 0.0013961
+patience:
+    value: 5

@@ -1,0 +1,15 @@
+program: train.py  
+method: bayes     
+metric:
+  name: val_loss   
+  goal: minimize   
+parameters:
+  learning_rate:
+
+    distribution: log_uniform_values
+    min: 0.00001  
+    max: 0.01  
+  epochs:
+    value: 100
+  patience: 
+    value: 5
