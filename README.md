@@ -24,8 +24,10 @@ To address this common mix-up, this project provides an end-to-end solution for 
 </table>
 
 ## 🚀 Live Demo
- **Note**:Due to free hosting, the app may take a couple of minutes to load on the first visit.
- **https://shiba-akita-classifier-0305.streamlit.app/**
+**https://shiba-akita-classifier-0305.streamlit.app/**
+
+**Note**: Due to free hosting, the app may take a couple of minutes to load on the first visit.
+ 
 
 
 
