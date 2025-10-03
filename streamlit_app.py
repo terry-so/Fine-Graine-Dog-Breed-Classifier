@@ -20,7 +20,7 @@ if st.button("Classify"):
     else:
         with st.spinner("Classifying... ⏳"):
             
-            files = {"file": (uploaded_file.name, uploaded_file.getvalue(), uploaded_file.type)}
+            files = {"file": (uploaded_file.name, uploaded_file.read(), uploaded_file.type)}
 
             response = requests.post(API_URL, files=files)
 
