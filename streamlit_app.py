@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title("Shiba Vs Akita Classifier")
-st.write("Upload an image of to check if the dog is a shiba🦊 or akita🐶. This app uses a vision transformer model to classify the result.")
+st.write("Upload an image to check if the dog is a shiba🦊 or akita🐶. This app uses a vision transformer model to classify the result.")
 uploaded_file = st.file_uploader("Upload images", type=["jpg", "png"])
 if uploaded_file:
     st.image(uploaded_file)
